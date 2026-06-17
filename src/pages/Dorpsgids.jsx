@@ -1,11 +1,11 @@
 import { Plus } from 'lucide-react'
-import { CATEGORIES } from './services/organisaties.js'
-import { useFilters } from './hooks/useFilters.js'
-import { useOrganisatieModal } from './hooks/useOrganisatieModal.js'
-import OrganisatieCard from './frontend/OrganisatieCard.jsx'
-import OrganisatieModal from './frontend/OrganisatieModal.jsx'
-import OrganisatieDetailModal from './frontend/OrganisatieDetailModal.jsx'
-import SuccesPopup from './frontend/SuccesPopup.jsx'
+import { CATEGORIES } from '../services/organisaties.js'
+import { useFilters } from '../hooks/useFilters.js'
+import { useOrganisatieModal } from '../hooks/useOrganisatieModal.js'
+import OrganisatieCard from '../components/OrganisatieCard.jsx'
+import OrganisatieModal from '../components/OrganisatieModal.jsx'
+import OrganisatieDetailModal from '../components/OrganisatieDetailModal.jsx'
+import SuccesPopup from '../components/SuccesPopup.jsx'
 
 export default function Dorpsgids() {
   const { activeFilters, toggleFilter, filtered } = useFilters()
