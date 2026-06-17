@@ -5,6 +5,7 @@ import Footer from './components/Footer.jsx'
 import Home from './pages/Home.jsx'
 import AutoMaatjes from './pages/AutoMaatjes.jsx'
 import FietsMaatjes from './pages/FietsMaatjes.jsx'
+import Dorpsgids from './pages/Dorpsgids.jsx'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -22,6 +23,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/automaatjes" element={<AutoMaatjes />} />
           <Route path="/fietsmaatjes" element={<FietsMaatjes />} />
+          <Route path="/dorpsgids" element={<Dorpsgids />} />
         </Routes>
       </main>
       <Footer />
