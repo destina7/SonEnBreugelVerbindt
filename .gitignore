@@ -5,3 +5,5 @@ package-lock
 _metadata
 dist
 .DS_Store
+.vercel
+.env*
